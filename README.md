@@ -5,8 +5,13 @@ Angular provider for easy interaction with [Stripe.js](https://stripe.com/docs/s
 
 ## Installing
 ```bash
-$ npm install --save angular-stripe
+$ bower install https://github.com/AshleyDeng/angular-stripe.git#lazy-load
 ```
+or
+```bash
+$ npm install https://github.com/AshleyDeng/angular-stripe.git#lazy-load
+```
+Then include the `lib/angular-stripe/release/angular-stripe.js` into your `index.html` and you are good to go.
 
 ## Usage
 
